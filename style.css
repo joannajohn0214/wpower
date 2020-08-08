@@ -1,0 +1,170 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body {
+  background-image: url("https://avante.biz/wp-content/uploads/Orange-Backgrounds/Orange-Backgrounds-035.jpg");
+}
+/* LOGO */
+/*Golden W in title*/
+.GoldW {
+  color:gold;
+}
+/* Rest of title */
+h1 {
+  display:inline;
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* .logo {
+  padding-right: 100px;
+} */
+
+/* NAVIGATION BAR */
+.nav-item {
+  padding:10px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: orange;
+  position: sticky;
+  font-size:30px;
+  font-family: 'Montserrat', sans-serif;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+/* HOMEPAGE */
+/*changes the images in the gallery*/
+.carousel-inner {
+  height: 700px;
+  width:1000px;
+  
+}
+/* title for ways to help tab*/
+.helptitle {
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.helpcards {
+  padding:20px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.btn {
+  background-color: orange;
+  color:black;
+}
+
+
+/*News*/
+
+
+
+
+
+/* FOR KIDS */
+/* Form */
+.wrapper {
+  background-color: rgb(255, 160, 71);
+  width: 800px;
+  padding:5%;
+  padding-bottom: 2%;
+  height: 65%;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 145%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 25px;
+}
+
+
+h2 {
+  font-size:70px;
+  padding:100px;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.missionfacts {
+  font-family: 'Montserrat', sans-serif;
+  background-color:black;
+  color:white;
+  padding-top:70px;
+  padding-bottom:70px;
+  text-align:center;
+}
+
+.mission {
+  font-size:70px;
+  padding:100px;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+}
+
+.missionfactstwo {
+  font-family: 'Montserrat', sans-serif;
+  background-color:white;
+  color:black;
+  padding-top:70px;
+  padding-bottom:70px;
+  text-align:center;
+  line-height:3;
+}
+
+.signatures {
+  display:inline;
+  display:flex;
+  justify-content:space-around;
+  background-color:white;
+  color:black;
+  padding-top:40px;
+  padding-bottom:70px;
+  text-align:center;
+
+}
+
+.cursive {
+  font-family: 'Great Vibes', cursive;
+  font-size:80px;
+}
+
+.golf {
+  height:500px;
+  width:1000px;
+}
